@@ -1,9 +1,6 @@
-from pickle import FALSE
-
-
 curs_pos_x = 0
 curs_pos_y = 0
-win_state = FALSE
+win_state = False
 good_grid =	[[1,2,3,4,5,6,7,8,9],
 			[4,5,6,7,8,9,1,2,3],
 			[7,8,9,1,2,3,4,5,6],
