@@ -60,7 +60,7 @@ def SudokuPrint(_grid):
 			if _grid[i][j] < 0:
 				curr = '\033[91m' + curr + '\033[0m'
 			if (curs_pos_x == i) and (curs_pos_y == j):
-				curr = '\033[7m' + curr + '\033[0m'
+				curr = '\033[100m' + curr + '\033[0m'
 			print(curr, end = '')
 
 			# print grid borders to group into 3X3 grids
@@ -77,4 +77,4 @@ def SudokuPrint(_grid):
 	print('')
 
 #SudokuPrint(good_grid)
-SudokuPrint(bad_grid, curs_pos_x, curs_pos_y)
+SudokuPrint(bad_grid)
